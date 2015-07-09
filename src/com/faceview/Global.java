@@ -1,0 +1,154 @@
+package com.faceview;
+
+import java.util.HashMap;
+
+import com.example.facepageactivity.R;
+
+
+public class Global {
+
+	/**
+	 * the map of face image
+	 */
+	public static HashMap<String,Integer> FACEMAP = null;
+
+	static {
+		FACEMAP = new HashMap<String, Integer>();
+		FACEMAP.put("/e000", R.drawable.face0);
+		FACEMAP.put("/e001", R.drawable.face1);
+		FACEMAP.put("/e002", R.drawable.face2);
+		FACEMAP.put("/e003", R.drawable.face3);
+		FACEMAP.put("/e004", R.drawable.face4);
+		FACEMAP.put("/e005", R.drawable.face5);
+		FACEMAP.put("/e006", R.drawable.face6);
+		FACEMAP.put("/e007", R.drawable.face7);
+		FACEMAP.put("/e008", R.drawable.face8);
+		FACEMAP.put("/e009", R.drawable.face9);
+		FACEMAP.put("/e010", R.drawable.face10);
+		FACEMAP.put("/e011", R.drawable.face11);
+		FACEMAP.put("/e012", R.drawable.face12);
+		FACEMAP.put("/e013", R.drawable.face13);
+		FACEMAP.put("/e014", R.drawable.face14);
+		FACEMAP.put("/e015", R.drawable.face15);
+		FACEMAP.put("/e016", R.drawable.face16);
+		FACEMAP.put("/e017", R.drawable.face17);
+		FACEMAP.put("/e018", R.drawable.face18);
+		FACEMAP.put("/e019", R.drawable.face19);
+		FACEMAP.put("/e020", R.drawable.face20);
+		FACEMAP.put("/e021", R.drawable.face21);
+		FACEMAP.put("/e022", R.drawable.face22);
+		FACEMAP.put("/e023", R.drawable.face23);
+		FACEMAP.put("/e024", R.drawable.face24);
+		FACEMAP.put("/e025", R.drawable.face25);
+		FACEMAP.put("/e026", R.drawable.face26);
+		FACEMAP.put("/e027", R.drawable.face27);
+		FACEMAP.put("/e028", R.drawable.face28);
+		FACEMAP.put("/e029", R.drawable.face29);
+		FACEMAP.put("/e030", R.drawable.face30);
+		FACEMAP.put("/e031", R.drawable.face31);
+		FACEMAP.put("/e032", R.drawable.face32);
+		FACEMAP.put("/e033", R.drawable.face33);
+		FACEMAP.put("/e034", R.drawable.face34);
+		FACEMAP.put("/e035", R.drawable.face35);
+		FACEMAP.put("/e036", R.drawable.face36);
+		FACEMAP.put("/e037", R.drawable.face37);
+		FACEMAP.put("/e038", R.drawable.face38);
+		FACEMAP.put("/e039", R.drawable.face39);
+		FACEMAP.put("/e040", R.drawable.face40);
+		FACEMAP.put("/e041", R.drawable.face41);
+		FACEMAP.put("/e042", R.drawable.face42);
+		FACEMAP.put("/e043", R.drawable.face43);
+		FACEMAP.put("/e044", R.drawable.face44);
+		FACEMAP.put("/e045", R.drawable.face45);
+		FACEMAP.put("/e046", R.drawable.face46);
+		FACEMAP.put("/e047", R.drawable.face47);
+		FACEMAP.put("/e048", R.drawable.face48);
+		FACEMAP.put("/e049", R.drawable.face49);
+		FACEMAP.put("/e050", R.drawable.face50);
+		FACEMAP.put("/e051", R.drawable.face51);
+		FACEMAP.put("/e052", R.drawable.face52);
+		FACEMAP.put("/e053", R.drawable.face53);
+		FACEMAP.put("/e054", R.drawable.face54);
+		FACEMAP.put("/e055", R.drawable.face55);
+		FACEMAP.put("/e056", R.drawable.face56);
+		FACEMAP.put("/e057", R.drawable.face57);
+		FACEMAP.put("/e058", R.drawable.face58);
+		FACEMAP.put("/e059", R.drawable.face59);
+		FACEMAP.put("/e060", R.drawable.face60);
+		FACEMAP.put("/e061", R.drawable.face61);
+		FACEMAP.put("/e062", R.drawable.face62);
+		FACEMAP.put("/e063", R.drawable.face63);
+		FACEMAP.put("/e064", R.drawable.face64);
+		FACEMAP.put("/e065", R.drawable.face65);
+		FACEMAP.put("/e066", R.drawable.face66);
+		FACEMAP.put("/e067", R.drawable.face67);
+		FACEMAP.put("/e068", R.drawable.face68);
+		FACEMAP.put("/e069", R.drawable.face69);
+		FACEMAP.put("/e070", R.drawable.face70);
+		FACEMAP.put("/e071", R.drawable.face71);
+		FACEMAP.put("/e072", R.drawable.face72);
+		FACEMAP.put("/e073", R.drawable.face73);
+		FACEMAP.put("/e074", R.drawable.face74);
+		FACEMAP.put("/e075", R.drawable.face75);
+		FACEMAP.put("/e076", R.drawable.face76);
+		FACEMAP.put("/e077", R.drawable.face77);
+		FACEMAP.put("/e078", R.drawable.face78);
+		FACEMAP.put("/e079", R.drawable.face79);
+		FACEMAP.put("/e080", R.drawable.face80);
+		FACEMAP.put("/e081", R.drawable.face81);
+		FACEMAP.put("/e082", R.drawable.face82);
+		FACEMAP.put("/e083", R.drawable.face83);
+		FACEMAP.put("/e084", R.drawable.face84);
+		FACEMAP.put("/e085", R.drawable.face85);
+		FACEMAP.put("/e086", R.drawable.face86);
+		FACEMAP.put("/e087", R.drawable.face87);
+		FACEMAP.put("/e088", R.drawable.face88);
+		FACEMAP.put("/e089", R.drawable.face89);
+		FACEMAP.put("/e090", R.drawable.face90);
+		FACEMAP.put("/e091", R.drawable.face91);
+		FACEMAP.put("/e092", R.drawable.face92);
+		FACEMAP.put("/e093", R.drawable.face93);
+		FACEMAP.put("/e094", R.drawable.face94);
+		FACEMAP.put("/e095", R.drawable.face95);
+		FACEMAP.put("/e096", R.drawable.face96);
+		FACEMAP.put("/e097", R.drawable.face97);
+		FACEMAP.put("/e098", R.drawable.face98);
+		FACEMAP.put("/e099", R.drawable.face99);
+		FACEMAP.put("/e100", R.drawable.face100);
+		FACEMAP.put("/e101", R.drawable.face101);
+		FACEMAP.put("/e102", R.drawable.face102);
+		FACEMAP.put("/e103", R.drawable.face103);
+		FACEMAP.put("/e104", R.drawable.face104);
+		FACEMAP.put("/e105", R.drawable.face105);
+		FACEMAP.put("/e106", R.drawable.face106);
+		FACEMAP.put("/e107", R.drawable.face107);
+		FACEMAP.put("/e108", R.drawable.face108);
+		FACEMAP.put("/e109", R.drawable.face109);
+		FACEMAP.put("/e110", R.drawable.face110);
+		FACEMAP.put("/e111", R.drawable.face111);
+		FACEMAP.put("/e112", R.drawable.face112);
+		FACEMAP.put("/e113", R.drawable.face113);
+		FACEMAP.put("/e114", R.drawable.face114);
+		FACEMAP.put("/e115", R.drawable.face115);
+		FACEMAP.put("/e116", R.drawable.face116);
+		FACEMAP.put("/e117", R.drawable.face117);
+		FACEMAP.put("/e118", R.drawable.face118);
+		FACEMAP.put("/e119", R.drawable.face119);
+		FACEMAP.put("/e120", R.drawable.face120);
+		FACEMAP.put("/e121", R.drawable.face121);
+		FACEMAP.put("/e122", R.drawable.face122);
+		FACEMAP.put("/e123", R.drawable.face123);
+		FACEMAP.put("/e124", R.drawable.face124);
+		FACEMAP.put("/e125", R.drawable.face125);
+		FACEMAP.put("/e126", R.drawable.face126);
+		FACEMAP.put("/e127", R.drawable.face127);
+		FACEMAP.put("/e128", R.drawable.face128);
+		FACEMAP.put("/e129", R.drawable.face129);
+		FACEMAP.put("/e130", R.drawable.face130);
+		FACEMAP.put("/e131", R.drawable.face131);
+		FACEMAP.put("/e132", R.drawable.face132);
+		FACEMAP.put("/e133", R.drawable.face133);
+		FACEMAP.put("/e134", R.drawable.face134);
+	}
+
+}

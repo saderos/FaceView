@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FaceView">
+        <attr name="col" format="string" />
+        <attr name="row" format="string" />
+    </declare-styleable>
+</resources>

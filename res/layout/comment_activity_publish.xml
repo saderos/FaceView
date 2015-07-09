@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:faceview="http://schemas.android.com/apk/res/com.example.facepageactivity"
+    android:id="@+id/testContentVeiw"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.worlduc.wechat.base.article.ArticleEditActivity" >
+
+    <!-- 标题栏 -->
+
+    <LinearLayout
+        android:id="@+id/commentPublish_llTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f5f5f5" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="发表"
+                android:textColor="#3e3e3e"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/commentPublish_tvCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="取消"
+                android:textColor="#00a2ff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/commentPublish_tvCommit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="发表"
+                android:textColor="#00a2ff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#3e3e3e" />
+    </LinearLayout>
+    <!-- 标题栏 -->
+
+
+    <!-- 发表内容区 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/commentPublish_llBottom"
+        android:layout_below="@+id/commentPublish_llTop"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/commentPublish_etContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="fill_horizontal"
+            android:hint="写评论..."
+            android:inputType="textMultiLine"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:scrollbars="vertical"
+            android:textColor="#000000"
+            android:textSize="16sp" >
+        </EditText>
+    </LinearLayout>
+
+    <!-- 发表内容区 -->
+
+
+    <!-- 工具栏区 -->
+
+    <LinearLayout
+        android:id="@+id/commentPublish_llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#eeeeee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp" >
+
+            <ImageView
+                android:id="@+id/commentPublish_ivAddImage"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:clickable="true"
+                android:contentDescription="description"
+                android:src="@drawable/global_btn_image" />
+
+            <ImageView
+                android:id="@+id/commentPublish_ivAddFace"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="15dp"
+                android:clickable="true"
+                android:contentDescription="description"
+                android:src="@drawable/global_btn_face" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#eeeeee" />
+
+        <com.faceview.FaceView
+            android:id="@+id/face_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            faceview:col="8"
+            faceview:row="3" />
+    </LinearLayout>
+    <!-- 工具栏区 -->
+
+</RelativeLayout>
